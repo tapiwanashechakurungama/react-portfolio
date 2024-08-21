@@ -118,7 +118,7 @@ function Hero() {
                     <a href="#contact">Contact</a>
                   </li>
                   <li className="li li5">
-                    <a className="resume2" href="resume.pdf">
+                    <a className="resume2" href="Tapiwanashe Chakurungama Resume.docx">
                       Resume
                     </a>
                   </li>
@@ -132,7 +132,7 @@ function Hero() {
             </div>
             <li className="nav-item last-link2">
               <a
-                className={`nav-link resume-icon ${
+               download className={`nav-link resume-icon ${
                   isClicked ? `no-hover` : ""
                 }`}
                 style={{
@@ -140,7 +140,7 @@ function Hero() {
                   transition: "all 0.5s",
                 }}
                 onClick={clickHandler}
-                href="resume.pdf"
+                href="./../../Tapiwanashe Chakurungama Resume.docx"
               >
                 <p>
                   <span></span>Resume<span></span>
